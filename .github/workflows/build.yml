@@ -54,6 +54,8 @@ jobs:
 
   docs:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     name: "Build Docs"
     steps:
       - uses: actions/checkout@v4
